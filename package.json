@@ -11,6 +11,7 @@
     "babel-preset-env": "^1.6.0",
     "coffee-loader": "^0.8.0",
     "coffee-script": "^1.12.7",
+    "coffeescript": "^1.12.7",
     "compression-webpack-plugin": "^1.0.0",
     "css-loader": "^0.28.5",
     "extract-text-webpack-plugin": "^3.0.0",
@@ -26,11 +27,20 @@
     "resolve-url-loader": "^2.1.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
+    "vue": "^2.4.2",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.2",
     "webpack": "^3.5.5",
     "webpack-manifest-plugin": "^1.3.1",
     "webpack-merge": "^4.1.0"
   },
   "devDependencies": {
     "webpack-dev-server": "^2.7.1"
-  }
+  },
+  "version": "1.0.0",
+  "description": "Testing webpacker.",
+  "main": "index.js",
+  "repository": "git@github.com:jachavez06/webpacker.git",
+  "author": "Jesus Chavez <jachavez06@gmail.com>",
+  "license": "MIT"
 }
