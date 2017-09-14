@@ -1,9 +1,13 @@
 import Vue from 'vue'
 import App from './app.vue'
 
-document.addEventListener('turbolinks:load', () => {
-  document.body.appendChild(document.createElement('hello'))
-  const app = new Vue(App).$mount('hello')
+import TurbolinksAdapter from 'vue-turbolinks';
+Vue.use(TurbolinksAdapter)
 
-  console.log(app)
-})
+document.addEventListener('turbolinks:load', () => {
+  var vueapp = new Vue({
+    el: "#hello",
+    template: '<App/>',
+    components: { App }
+  });
+});
