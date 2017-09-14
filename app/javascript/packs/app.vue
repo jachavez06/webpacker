@@ -1,9 +1,13 @@
+<!-- This is a single file component. -->
+
+<!-- Template for component -->
 <template>
   <div id="app">
     <p>{{ message }}</p>
   </div>
 </template>
 
+<!-- JS for component -->
 <script>
 export default {
   data: function () {
@@ -14,6 +18,7 @@ export default {
 }
 </script>
 
+<!-- Styles for component -->
 <style scoped>
 p {
   font-size: 2em;

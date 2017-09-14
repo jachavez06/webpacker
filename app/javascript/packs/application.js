@@ -7,7 +7,7 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 
-// 'gorails' corresponds to directory name; 'GoRails' is an identifier we choose.
+// 'gorails' corresponds to directory name; 'GoRails' is an identifier (local var)  we choose.
 import GoRails from 'gorails'
 
 console.log('Hello World from Webpacker')
